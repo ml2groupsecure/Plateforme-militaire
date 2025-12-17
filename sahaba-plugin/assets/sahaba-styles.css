@@ -1,0 +1,600 @@
+/* Styles pour la page Sahaba - Version plugin */
+:root {
+    --primary-green: #2d8659;
+    --dark-green: #1a5c3a;
+    --light-green: #45a375;
+    --gold: #d4af37;
+    --light-gold: #f4e4b8;
+    --cream: #faf7f0;
+    --text-dark: #2c3e50;
+    --text-light: #ecf0f1;
+    --shadow: rgba(29, 86, 58, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sahaba-fullpage-container {
+    width: 100%;
+    background-color: var(--cream);
+}
+
+/* Hero Section */
+.sahaba-hero {
+    background: linear-gradient(135deg, var(--dark-green) 0%, var(--primary-green) 100%);
+    color: var(--text-light);
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+.hero-quote {
+    max-width: 700px;
+    margin: 40px auto 0;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 2px solid var(--gold);
+}
+
+.arabic-quote {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--light-gold);
+    direction: rtl;
+}
+
+.quote-translation {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.quote-source {
+    font-size: 0.9rem;
+    color: var(--gold);
+    font-weight: 500;
+}
+
+/* Filtres */
+.sahaba-filters {
+    background: white;
+    padding: 30px 20px;
+    box-shadow: 0 2px 10px var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.filters-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.filter-btn {
+    padding: 12px 28px;
+    border: 2px solid var(--primary-green);
+    background: white;
+    color: var(--primary-green);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.filter-btn:hover {
+    background: var(--light-green);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.filter-btn.active {
+    background: var(--primary-green);
+    color: white;
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+/* Grille des Sahaba */
+.sahaba-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    padding: 50px 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.loading-message, .no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 1.3rem;
+    color: var(--primary-green);
+}
+
+.sahaba-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    animation: cardAppear 0.5s ease forwards;
+}
+
+.sahaba-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(29, 86, 58, 0.2);
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card-header {
+    padding: 25px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.card-header.male {
+    background: linear-gradient(135deg, var(--primary-green), var(--dark-green));
+}
+
+.card-header.female {
+    background: linear-gradient(135deg, var(--gold), #b8941f);
+}
+
+.gender-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+
+.sahabi-name-ar {
+    font-size: 2rem;
+    font-weight: 700;
+    direction: rtl;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.card-body {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sahabi-name-fr {
+    font-size: 1.4rem;
+    color: var(--dark-green);
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.sahabi-title {
+    font-size: 1rem;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+.sahabi-dates {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    padding: 8px;
+    background: var(--cream);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.sahabi-bio-preview {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.card-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.badge {
+    padding: 5px 12px;
+    background: var(--light-gold);
+    color: var(--dark-green);
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.card-footer {
+    padding: 0 25px 25px;
+}
+
+.btn-details {
+    width: 100%;
+    padding: 14px;
+    background: var(--primary-green);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-details:hover {
+    background: var(--dark-green);
+    transform: scale(1.02);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 50px auto;
+    padding: 0;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 85vh;
+    overflow-y: auto;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+}
+
+.close-modal {
+    color: white;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    position: sticky;
+    top: 15px;
+    right: 25px;
+    z-index: 10;
+    background: var(--primary-green);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: all 0.3s ease;
+}
+
+.close-modal:hover {
+    background: var(--dark-green);
+    transform: rotate(90deg);
+}
+
+.modal-header {
+    background: linear-gradient(135deg, var(--dark-green), var(--primary-green));
+    color: white;
+    padding: 50px 40px 40px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.modal-name-ar {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    direction: rtl;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.modal-name-fr {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.modal-title {
+    font-size: 1.2rem;
+    color: var(--light-gold);
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.modal-dates {
+    font-size: 1rem;
+    opacity: 0.9;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#modal-body {
+    padding: 40px;
+}
+
+.modal-section {
+    margin-bottom: 35px;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    color: var(--dark-green);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--gold);
+    display: inline-block;
+}
+
+.biography-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: var(--text-dark);
+}
+
+.contributions-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contributions-list li {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    background: var(--cream);
+    border-left: 4px solid var(--primary-green);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contributions-list li::before {
+    content: '✓ ';
+    color: var(--primary-green);
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* Références */
+.references-section {
+    margin-bottom: 35px;
+}
+
+.reference-item {
+    background: white;
+    border: 2px solid var(--primary-green);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px var(--shadow);
+}
+
+.reference-item.coran {
+    border-left: 6px solid var(--gold);
+}
+
+.reference-item.sunnah {
+    border-left: 6px solid var(--primary-green);
+}
+
+.ref-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ref-location,
+.ref-source {
+    background: var(--primary-green);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.ref-number {
+    background: var(--gold);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.ref-arabic {
+    font-size: 1.6rem;
+    direction: rtl;
+    text-align: right;
+    color: var(--dark-green);
+    margin-bottom: 12px;
+    padding: 15px;
+    background: var(--light-gold);
+    border-radius: 10px;
+    line-height: 2;
+}
+
+.ref-translation {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    color: var(--text-dark);
+}
+
+.ref-context {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    font-style: italic;
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--cream);
+    border-radius: 8px;
+}
+
+.ref-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 12px;
+    color: var(--text-dark);
+    padding: 12px;
+    background: var(--cream);
+    border-radius: 8px;
+}
+
+.ref-theme {
+    font-size: 0.9rem;
+    color: var(--primary-green);
+    margin-top: 8px;
+}
+
+/* Vertus & Catégories */
+.vertus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.vertu-badge {
+    background: linear-gradient(135deg, var(--light-green), var(--primary-green));
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 3px 10px var(--shadow);
+    transition: transform 0.2s ease;
+}
+
+.vertu-badge:hover {
+    transform: scale(1.05);
+}
+
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.category-badge {
+    background: var(--light-gold);
+    color: var(--dark-green);
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 2px solid var(--gold);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .arabic-quote {
+        font-size: 1.5rem;
+    }
+    
+    .sahaba-grid {
+        grid-template-columns: 1fr;
+        padding: 30px 15px;
+    }
+    
+    .filters-container {
+        gap: 10px;
+    }
+    
+    .filter-btn {
+        padding: 10px 18px;
+        font-size: 0.9rem;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 20px auto;
+    }
+    
+    #modal-body {
+        padding: 25px;
+    }
+    
+    .modal-name-ar {
+        font-size: 2rem;
+    }
+    
+    .modal-name-fr {
+        font-size: 1.4rem;
+    }
+    
+    .vertus-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,106 @@
+incident_type,location,date_occurred,description,status,severity,agent_name,victim_count
+Vol à main armée,Sandaga,2024-09-15 14:30,Vol avec couteau,En cours,high,Commissaire Diop,1
+Agression,UCAD,2024-09-16 09:15,Bagarre étudiants,Résolu,medium,Inspecteur Fall,2
+Fraude,Plateau,2024-09-17 16:45,Arnaque téléphonique,Nouveau,low,Agent Ndiaye,1
+Cambriolage,Pikine,2024-09-18 02:30,Cambriolage nuit,En cours,high,Commissaire Sow,1
+Trafic de drogue,Guédiawaye,2024-09-19 11:20,Cannabis saisi,Classé,critical,Inspecteur Ba,0
+Vol de véhicule,Rufisque,2024-09-20 18:00,Moto volée,En cours,high,Agent Sarr,1
+Escroquerie,Thiès,2024-09-21 10:15,Faux terrain,Résolu,medium,Brigadier Ciss,3
+Violence conjugale,Kaolack,2024-09-22 07:30,Violence domestique,En cours,high,Agent Mbaye,1
+Vol simple,Kermel,2024-09-23 12:00,Pickpocket,Nouveau,low,Inspecteur Diallo,1
+Cybercriminalité,Saint-Louis,2024-09-24 15:20,Piratage compte,En cours,critical,Commissaire Faye,1
+Agression sexuelle,Ziguinchor,2024-09-25 20:45,Agression rue,Résolu,critical,Agent Sy,1
+Vol,Touba,2024-09-26 14:20,Vol marché,En cours,medium,Inspecteur Wade,1
+Vol avec violence,Mbour,2024-09-27 19:30,Vol bijoux,Nouveau,high,Agent Diouf,1
+Corruption,Tambacounda,2024-09-28 11:00,Pot-de-vin,Classé,medium,Commissaire Kane,0
+Trafic d'armes,Kolda,2024-09-29 03:15,Armes saisies,Résolu,critical,Inspecteur Camara,0
+Vol de bétail,Louga,2024-09-30 06:00,Vol moutons,En cours,medium,Agent Gueye,1
+Accident,Autoroute Dakar-Thiès,2024-10-01 22:15,Accident mortel,Résolu,critical,Commissaire Ndour,2
+Manifestation,Place Indépendance,2024-10-02 16:00,Manif étudiants,Classé,low,Brigade Antiémeute,0
+Vol organisé,Port Dakar,2024-10-03 04:30,Vol conteneurs,En cours,critical,Inspecteur Tall,0
+Harcèlement,Transport Tata,2024-08-15 17:45,Harcèlement bus,Nouveau,medium,Agent Thiam,1
+Incendie,Marché Tilène,2024-08-16 01:20,Incendie criminel,Résolu,high,Police Kebe,0
+Braconnage,Bandia,2024-08-17 05:45,Chasse illégale,En cours,medium,Agent Dieng,0
+Blanchiment,Banque Dakar,2024-08-18 10:30,Transactions suspectes,Nouveau,critical,Brigade Seck,0
+Kidnapping,Saly,2024-08-19 14:00,Enlèvement enfant,Résolu,critical,Commissaire Dème,1
+Viol,Rufisque,2024-08-20 23:30,Agression sexuelle,En cours,critical,Brigade Fall,1
+Détournement,Mairie Dakar,2024-08-21 09:00,Fonds publics,Nouveau,high,Brigade Ly,0
+Terrorisme,Casamance,2024-08-22 21:00,Alerte terroriste,Classé,critical,Forces Spéciales,0
+Vandalisme,Monument Dakar,2024-08-23 16:30,Dégradation,Résolu,low,Police Municipale,0
+Contrebande,Rosso,2024-08-24 12:00,Marchandises,En cours,medium,Douanes Sy,0
+Chantage,Almadies,2024-08-25 18:20,Chantage photos,Nouveau,medium,Cybercrime Ndiaye,1
+Vol,Sandaga,2024-07-15 11:30,Vol téléphone,En cours,medium,Agent Diop,1
+Agression,UCAD,2024-07-16 08:45,Rixe campus,Résolu,low,Inspecteur Fall,2
+Fraude,Plateau,2024-07-17 15:20,Escroquerie SMS,Nouveau,low,Agent Ndiaye,1
+Cambriolage,Pikine,2024-07-18 03:15,Cambriolage villa,En cours,high,Commissaire Sow,1
+Trafic,Guédiawaye,2024-07-19 10:45,Drogue saisie,Classé,high,Inspecteur Ba,0
+Vol véhicule,Rufisque,2024-07-20 19:00,Voiture volée,En cours,high,Agent Sarr,1
+Escroquerie,Thiès,2024-07-21 09:30,Faux notaire,Résolu,medium,Brigadier Ciss,2
+Violence,Kaolack,2024-07-22 06:45,Violence familiale,En cours,high,Agent Mbaye,1
+Vol,Kermel,2024-07-23 13:15,Vol sac,Nouveau,low,Inspecteur Diallo,1
+Cybercrime,Saint-Louis,2024-07-24 16:40,Hacking,En cours,high,Commissaire Faye,1
+Agression,Ziguinchor,2024-07-25 21:30,Agression nocturne,Résolu,high,Agent Sy,1
+Vol,Touba,2024-07-26 12:50,Vol boutique,En cours,medium,Inspecteur Wade,1
+Violence,Mbour,2024-07-27 18:15,Bagarre bar,Nouveau,medium,Agent Diouf,2
+Corruption,Tambacounda,2024-07-28 10:20,Corruption agent,Classé,low,Commissaire Kane,0
+Trafic,Kolda,2024-07-29 02:40,Contrebande,Résolu,high,Inspecteur Camara,0
+Vol bétail,Louga,2024-07-30 05:30,Vol chèvres,En cours,medium,Agent Gueye,1
+Accident,Route Dakar,2024-07-31 20:45,Accident grave,Résolu,high,Commissaire Ndour,1
+Manifestation,Dakar centre,2024-06-15 14:20,Manif syndicale,Classé,low,Brigade Antiémeute,0
+Vol,Port Dakar,2024-06-16 03:50,Vol marchandises,En cours,high,Inspecteur Tall,0
+Harcèlement,Dakar Dem Dikk,2024-06-17 16:25,Harcèlement transport,Nouveau,medium,Agent Thiam,1
+Incendie,Marché Colobane,2024-06-18 00:45,Incendie suspect,Résolu,high,Police Kebe,0
+Braconnage,Niokolo Koba,2024-06-19 04:15,Braconnage parc,En cours,high,Agent Dieng,0
+Blanchiment,Banque Thiès,2024-06-20 11:10,Blanchiment argent,Nouveau,critical,Brigade Seck,0
+Enlèvement,Saly Portudal,2024-06-21 13:35,Tentative kidnapping,Résolu,critical,Commissaire Dème,1
+Viol,Pikine,2024-06-22 22:50,Viol conjugal,En cours,critical,Brigade Fall,1
+Détournement,Conseil Départemental,2024-06-23 08:30,Détournement budget,Nouveau,high,Brigade Ly,0
+Terrorisme,Frontière Mali,2024-06-24 19:15,Activité suspecte,Classé,critical,Forces Spéciales,0
+Vandalisme,Statue Renaissance,2024-06-25 15:40,Tags monument,Résolu,low,Police Municipale,0
+Contrebande,Kidira,2024-06-26 11:55,Contrebande or,En cours,high,Douanes Sy,0
+Chantage,Point E,2024-06-27 17:30,Chantage sexuel,Nouveau,high,Cybercrime Ndiaye,1
+Vol,Sandaga,2024-05-15 10:20,Vol étalage,En cours,low,Agent Diop,1
+Agression,UCAD Bibliothèque,2024-05-16 07:35,Agression vol,Résolu,medium,Inspecteur Fall,1
+Fraude,Plateau Centre,2024-05-17 14:50,Carte bancaire,Nouveau,medium,Agent Ndiaye,1
+Cambriolage,Pikine Icotaf,2024-05-18 01:25,Cambriolage école,En cours,high,Commissaire Sow,0
+Trafic,Guédiawaye Wakhinane,2024-05-19 09:40,Trafic yamba,Classé,high,Inspecteur Ba,0
+Vol,Rufisque,2024-05-20 17:20,Vol moto-taxi,En cours,medium,Agent Sarr,1
+Escroquerie,Thiès Escale,2024-05-21 08:55,Vente terrain fictif,Résolu,high,Brigadier Ciss,4
+Violence,Kaolack Médina,2024-05-22 05:15,Querelle famille,En cours,medium,Agent Mbaye,2
+Vol,Marché Kermel,2024-05-23 12:30,Pickpocket touriste,Nouveau,low,Inspecteur Diallo,1
+Cybercrime,Saint-Louis Centre,2024-05-24 15:05,Arnaque internet,En cours,medium,Commissaire Faye,1
+Agression,Ziguinchor Marché,2024-05-25 19:40,Agression commerçant,Résolu,high,Agent Sy,1
+Vol,Touba Mosquée,2024-05-26 11:45,Vol chaussures,En cours,low,Inspecteur Wade,1
+Violence,Mbour Plage,2024-05-27 16:55,Bagarre pêcheurs,Nouveau,medium,Agent Diouf,3
+Corruption,Tambacounda Gare,2024-05-28 09:25,Corruption douanier,Classé,medium,Commissaire Kane,0
+Trafic,Kolda Marché,2024-05-29 01:50,Faux médicaments,Résolu,high,Inspecteur Camara,0
+Vol,Louga Centre,2024-05-30 04:40,Vol bétail nuit,En cours,high,Agent Gueye,1
+Accident,Autoroute Thiès-Kaolack,2024-05-31 21:15,Collision bus-camion,Résolu,critical,Commissaire Ndour,5
+Manifestation,Université Dakar,2024-04-15 13:45,Grève étudiante,Classé,low,Brigade Antiémeute,0
+Vol,Port Autonome,2024-04-16 02:20,Vol équipement,En cours,high,Inspecteur Tall,0
+Harcèlement,Bus Tata,2024-04-17 15:50,Harcèlement femme,Nouveau,medium,Agent Thiam,1
+Incendie,Marché Sandaga,2024-04-18 23:30,Court-circuit,Résolu,medium,Police Kebe,0
+Braconnage,Ferlo,2024-04-19 03:25,Chasse gazelles,En cours,medium,Agent Dieng,0
+Blanchiment,Western Union,2024-04-20 10:15,Transfert suspect,Nouveau,high,Brigade Seck,0
+Kidnapping,Bargny,2024-04-21 12:40,Enlèvement rançon,Résolu,critical,Commissaire Dème,1
+Viol,Grand Yoff,2024-04-22 20:25,Agression mineure,En cours,critical,Brigade Fall,1
+Détournement,Hôpital Principal,2024-04-23 07:50,Vol médicaments,Nouveau,high,Brigade Ly,0
+Terrorisme,Aéroport Dakar,2024-04-24 18:35,Colis suspect,Classé,high,Forces Spéciales,0
+Vandalisme,École Primaire,2024-04-25 14:10,Destruction matériel,Résolu,medium,Police Municipale,0
+Contrebande,Bakel,2024-04-26 10:45,Contrebande bétail,En cours,medium,Douanes Sy,0
+Chantage,Fann Résidence,2024-04-27 16:20,Chantage politique,Nouveau,high,Cybercrime Ndiaye,1
+Vol,HLM Grand Yoff,2024-04-28 08:30,Vol domicile,En cours,medium,Agent Diop,1
+Agression,Parcelles Assainies,2024-04-29 06:45,Agression rue,Résolu,medium,Inspecteur Fall,1
+Fraude,Marché Castors,2024-04-30 13:25,Fausse monnaie,Nouveau,medium,Agent Ndiaye,2
+Cambriolage,Yoff Virage,2024-03-15 00:15,Cambriolage magasin,En cours,high,Commissaire Sow,0
+Trafic,Thiaroye,2024-03-16 08:50,Trafic cigarettes,Classé,medium,Inspecteur Ba,0
+Vol,Rufisque Bargny,2024-03-17 16:40,Vol téléphone,En cours,low,Agent Sarr,1
+Escroquerie,Thiès Nguinth,2024-03-18 07:20,Faux guérisseur,Résolu,medium,Brigadier Ciss,6
+Violence,Kaolack Ndangalma,2024-03-19 04:35,Violence électorale,En cours,high,Agent Mbaye,4
+Vol,Île de Gorée,2024-03-20 11:50,Vol touriste,Nouveau,low,Inspecteur Diallo,1
+Cybercrime,Saint-Louis Sor,2024-03-21 14:15,Piratage email,En cours,medium,Commissaire Faye,1
+Agression,Ziguinchor Tilène,2024-03-22 18:55,Agression taxi,Résolu,medium,Agent Sy,1
+Vol,Touba Ndamatou,2024-03-23 10:25,Vol vélo,En cours,low,Inspecteur Wade,1
+Violence,Mbour Saly,2024-03-24 15:35,Violence tourisme,Nouveau,high,Agent Diouf,2
+Corruption,Tambacounda Wassadou,2024-03-25 08:10,Corruption forestier,Classé,medium,Commissaire Kane,0
+Trafic,Kolda Vélingara,2024-03-26 00:45,Trafic ivoire,Résolu,critical,Inspecteur Camara,0

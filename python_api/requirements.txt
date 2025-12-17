@@ -1,0 +1,19 @@
+# Versions compatibles Python 3.12 (Windows)
+# Note: le modèle joblib peut être incompatible selon la version de scikit-learn,
+# mais l'API gère déjà un mode démonstration si le modèle ne charge pas.
+fastapi==0.115.6
+uvicorn==0.30.6
+joblib==1.4.2
+numpy==1.26.4
+pandas==2.2.3
+pydantic==2.8.2
+python-multipart==0.0.9
+scikit-learn==1.4.2
+
+# Radar Sénégal (scraping + Groq + carte)
+requests>=2.31.0
+feedparser>=6.0.11
+beautifulsoup4>=4.12.3
+folium>=0.17.0
+langchain-groq>=0.1.6
+langchain-core>=0.2.0

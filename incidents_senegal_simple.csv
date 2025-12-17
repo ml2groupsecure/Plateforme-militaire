@@ -1,0 +1,16 @@
+type_incident,lieu,date_evenement,etat
+Vol,Marché Sandaga,2024-10-03,En cours
+Agression,Campus UCAD,2024-10-02,Résolu
+Fraude,Plateau,2024-10-01,Nouveau
+Cambriolage,Pikine,2024-09-30,En cours
+Trafic,Guédiawaye,2024-09-29,Classé
+Escroquerie,Thiès,2024-09-28,Résolu
+Violence,Kaolack,2024-09-27,En cours
+Cybercrime,Saint-Louis,2024-09-26,Nouveau
+Contrefaçon,Touba,2024-09-25,En cours
+Corruption,Tambacounda,2024-09-24,Classé
+Vol véhicule,Rufisque,2024-09-23,En cours
+Harcèlement,Mbour,2024-09-22,Nouveau
+Vandalisme,Ziguinchor,2024-09-21,Résolu
+Braconnage,Kolda,2024-09-20,En cours
+Blanchiment,Louga,2024-09-19,Nouveau

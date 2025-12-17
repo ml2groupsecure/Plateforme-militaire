@@ -1,0 +1,32 @@
+incident_type,location,date_occurred,description,status,severity,latitude,longitude,agent_name,victim_count,suspect_description
+Vol à main armée,Sandaga Dakar,2024-10-01 14:30,Vol de téléphone portable avec menaces,En cours,high,14.6937,-17.4441,Commissaire Diop,1,Homme jeune environ 25 ans
+Agression,Campus UCAD,2024-10-01 09:15,Bagarre entre étudiants suite à un différend,Résolu,medium,14.6696,-17.4633,Inspecteur Fall,2,Deux étudiants identifiés
+Fraude numérique,Plateau Dakar,2024-10-01 16:45,Arnaque par SMS demandant code bancaire,Nouveau,low,14.6928,-17.4467,Agent Ndiaye,3,Numéro masqué
+Cambriolage,Pikine,2024-10-02 02:30,Cambriolage de domicile la nuit,En cours,high,14.7645,-17.4019,Commissaire Sow,1,Inconnu
+Trafic de drogue,Guédiawaye,2024-10-02 11:20,Découverte de cannabis lors de fouille,Classé,critical,14.7692,-17.4186,Inspecteur Ba,0,Homme 30 ans cicatrice visage
+Vol de véhicule,Rufisque,2024-10-02 18:00,Vol de voiture garée devant domicile,En cours,high,14.7167,-17.2667,Agent Sarr,1,Deux hommes en moto
+Escroquerie,Thiès,2024-10-02 10:15,Faux vendeur de terrain agricole,Résolu,medium,14.7886,-16.9260,Brigadier Ciss,5,Homme 45 ans se faisant passer pour notaire
+Violence conjugale,Kaolack,2024-10-03 07:30,Violence domestique signalée par voisins,En cours,high,14.1372,-16.0728,Agent Mbaye,1,Mari de la victime
+Vol simple,Marché Kermel,2024-10-03 12:00,Vol de portefeuille dans la foule,Nouveau,low,14.6641,-17.4370,Inspecteur Diallo,1,Pickpocket non identifié
+Cybercriminalité,Saint-Louis,2024-10-03 15:20,Piratage de compte bancaire en ligne,En cours,critical,16.0367,-16.4895,Commissaire Faye,1,Pirate informatique inconnu
+Agression sexuelle,Ziguinchor,2024-09-28 20:45,Agression dans une rue peu éclairée,Résolu,critical,12.5444,-16.2816,Agent Sy,1,Homme 35 ans arrêté
+Contrefaçon,Touba,2024-09-29 14:20,Vente de faux médicaments au marché,En cours,high,14.8497,-15.8814,Inspecteur Wade,0,Vendeur ambulant
+Vol avec violence,Mbour,2024-09-30 19:30,Agression pour vol de bijoux,Nouveau,high,14.4197,-16.9597,Agent Diouf,1,Trois jeunes hommes
+Corruption,Tambacounda,2024-09-25 11:00,Tentative de corruption d'agent public,Classé,medium,13.7671,-13.6681,Commissaire Kane,0,Commerçant local identifié
+Trafic d'armes,Kolda,2024-09-26 03:15,Découverte d'armes de contrebande,Résolu,critical,12.8939,-14.9405,Inspecteur Camara,0,Réseau de trafiquants démantelé
+Vol de bétail,Louga,2024-09-27 06:00,Vol de moutons dans un élevage,En cours,medium,15.6181,-16.2247,Agent Gueye,1,Voleurs en véhicule pick-up
+Accident mortel,Autoroute Dakar-Thiès,2024-09-24 22:15,Collision frontale entre deux véhicules,Résolu,critical,14.7500,-17.0000,Commissaire Ndour,3,Conducteur en état d'ébriété
+Manifestation,Place de l'Indépendance,2024-09-23 16:00,Manifestation non autorisée dispersée,Classé,low,14.6943,-17.4443,Brigade Anti-Emeute,0,Manifestants étudiants
+Vol organisé,Port de Dakar,2024-09-22 04:30,Vol de conteneurs de marchandises,En cours,critical,14.6953,-17.4439,Inspecteur Maritime Tall,0,Gang organisé
+Harcèlement,Transport public Tata,2024-09-21 17:45,Harcèlement sexuel dans transport,Nouveau,medium,14.6937,-17.4441,Agent Thiam,1,Chauffeur de car rapide
+Incendie criminel,Marché Tilène,2024-09-20 01:20,Incendie volontaire de boutiques,Résolu,high,14.7089,-17.4678,Pompiers + Police Kebe,0,Conflit commercial
+Braconnage,Réserve de Bandia,2024-09-19 05:45,Chasse illégale d'animaux protégés,En cours,medium,14.5833,-17.0833,Agent Forestier Dieng,0,Braconniers avec armes artisanales
+Blanchiment,Banque Dakar,2024-09-18 10:30,Transactions suspectes détectées,Nouveau,critical,14.6937,-17.4441,Brigade Financière Seck,0,Réseau financier international
+Kidnapping,Saly Portudal,2024-09-17 14:00,Enlèvement d'enfant résolu rapidement,Résolu,critical,14.4500,-16.7500,Commissaire Dème,1,Oncle de l'enfant arrêté
+Viol,Banlieue Rufisque,2024-09-16 23:30,Agression sexuelle sur mineure,En cours,critical,14.7167,-17.2667,Brigade des Mœurs Fall,1,Voisin de la famille
+Détournement,Mairie Dakar,2024-09-15 09:00,Détournement de fonds publics,Nouveau,high,14.6937,-17.4441,Brigade Économique Ly,0,Fonctionnaire municipal
+Terrorisme,Frontière Casamance,2024-09-14 21:00,Activité suspecte signalée,Classé,critical,12.5000,-16.0000,Forces Spéciales Ba,0,Fausse alerte
+Vandalisme,Monuments Dakar,2024-09-13 16:30,Dégradation de monument historique,Résolu,low,14.6937,-17.4441,Police Municipale Diop,0,Groupe de jeunes identifiés
+Contrebande,Frontière Rosso,2024-09-12 12:00,Trafic de marchandises non déclarées,En cours,medium,16.5167,-15.8000,Douanes + Gendarmerie Sy,0,Camions suspects interceptés
+Chantage,Quartier Almadies,2024-09-11 18:20,Chantage avec photos compromettantes,Nouveau,medium,14.7397,-17.5253,Cybercrime Ndiaye,1,Ex-petit ami de la victime
+Homicide,Grand Yoff,2024-09-10 03:45,Meurtre lors d'une dispute familiale,Résolu,critical,14.7544,-17.4658,Brigade Criminelle Kane,1,Frère de la victime en garde à vue
