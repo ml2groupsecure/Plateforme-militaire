@@ -13,6 +13,9 @@ out/
 *.tsbuildinfo
 
 # Environment variables (keep .env.example)
+.env
+.env.*
+!.env.example
 .env.local
 .env.development.local  
 .env.test.local
@@ -21,6 +24,7 @@ out/
 # Python API env file (do not commit secrets)
 python_api/.env
 python_api/.env.*
+!python_api/.env.example
 
 # Python Virtual Environment
 python_api/venv/
